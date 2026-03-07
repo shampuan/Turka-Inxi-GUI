@@ -99,7 +99,7 @@ class ModernInxi(QMainWindow):
         btn_report = QPushButton("📄 Tam Rapor")
         btn_report.setCheckable(True)
         btn_report.setFixedHeight(40)
-        btn_report.param = "-F"
+        btn_report.param = "-Fxxxpmr"
         btn_report.clicked.connect(lambda ch, b=btn_report: self.on_btn_click(b))
         self.btns_layout.addWidget(btn_report)
         self.btns.append(btn_report)
