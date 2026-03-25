@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Turka Inxi GUI
+Name[tr]=Sistem Bilgi Merkezi (inxi GUI)
+Comment=Show detailed system information
+Comment[tr]=Detaylı sistem bilgilerini gösterir
+Exec=python3 /usr/share/turka-inxi-gui/inxigui.py
+Icon=dialog-information
+Terminal=false
+Type=Application
+Categories=System;Settings;
+Keywords=system;info;inxi;hardware;donanım;bilgi;

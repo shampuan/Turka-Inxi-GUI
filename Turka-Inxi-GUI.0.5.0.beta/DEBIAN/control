@@ -1,0 +1,10 @@
+Package: turka-inxi-gui
+Version: 0.5.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Bülent ERGÜN <https://www.github.com/03tekno>, A. Serhat KILIÇOĞLU <https://www.github.com/shampuan>, Sadi YUMUŞAK <https://www.github.com/sadi58>
+Depends: python3, python3-gi, libadwaita-1-0, gir1.2-adw-1, inxi
+Description: System Information Center (inxi GUI)
+ This program shows a detailed summary of your computer hardware using the inxi tool.
+ It is developed for Debian-based systems.
